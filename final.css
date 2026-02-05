@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f6e9e6;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #7a0000;
+  border-radius: 50%;
+}
+
+.user-text span {
+  font-size: 12px;
+}
+
+.user-text strong {
+  font-size: 14px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  background: #bfa6a1;
+  border-radius: 50%;
+}
+
+/* BUSCA */
+.search {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 100%;
+  padding: 14px 40px 14px 20px;
+  border-radius: 24px;
+  border: none;
+  background: #e6d5d1;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* CARD PADRÃO */
+.card {
+  background: #bfa6a1;
+  border-radius: 24px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  background: #9c7f7a;
+  padding: 10px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+/* CHECK-IN */
+.days {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.days button {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 50%;
+  border: none;
+  background: #a8938e;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.days button.active {
+  background: #2b0000;
+  color: #fff;
+}
+
+/* MENSAGEM */
+.message h1 {
+  text-align: center;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.message strong {
+  font-size: 32px;
+}
